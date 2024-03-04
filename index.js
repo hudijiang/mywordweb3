@@ -5,15 +5,15 @@ const axios = require('axios');
 console.log('web3版本号',Web3.version)
 // 连接到以太坊节点
 //主网地址
-// const web3 = new Web3('https://eth-mainnet.g.alchemy.com/v2/sxWfpB4sHjNInlzW7zvwq0vJ9WzVJjUX');
+// const web3 = new Web3('https://eth-mainnet.g.alchemy.com/v2/xxx');
 //测试网地址
-const web3 = new Web3('https://eth-goerli.g.alchemy.com/v2/ufWSjhpeA7fmJGzgfijxLGYdPdvxtU4D');
+const web3 = new Web3('https://eth-goerli.g.alchemy.com/v2/xxx');
 //主网浏览器
 // var etherscan = 'https://api.etherscan.io/api';
 //测试网浏览器
 var etherscan = 'https://api-goerli.etherscan.io/api';
 // 账户地址
-const address = '0x7E09eA39b020B07077A952351E33ED96148F388A';
+const address = '钱包';
 // 获取账户余额
 function getBalance(address) {
 	web3.eth.getBalance(address, (err, balance) => {
