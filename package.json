@@ -12,5 +12,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^v1.10.0" // 使用最新版本或指定一个特定版本
+  }
 }
